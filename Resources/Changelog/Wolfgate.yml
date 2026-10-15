@@ -1751,3 +1751,10 @@ Entries:
   id: 100142
   time: '2026-10-15T19:20:32.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/252
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: Option to mute background music when listening to midi/jukebox songs.
+  id: 100143
+  time: '2026-10-15T20:56:57.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/253
