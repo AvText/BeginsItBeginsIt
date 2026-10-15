@@ -1718,3 +1718,10 @@ Entries:
   id: 100139
   time: '2026-10-15T08:20:13.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/249
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Atmospherics decompression no longer dematerialises your entire being.
+  id: 100140
+  time: '2026-10-15T08:52:24.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/250
