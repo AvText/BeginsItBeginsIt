@@ -1697,3 +1697,10 @@ Entries:
   id: 100136
   time: '2026-10-14T21:46:45.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/244
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: Various clown & mime related clothing and facepaints.
+  id: 100137
+  time: '2026-10-15T01:19:42.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/246
