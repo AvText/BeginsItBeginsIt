@@ -1742,3 +1742,12 @@ Entries:
   id: 100141
   time: '2026-10-15T10:14:09.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/240
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Shells and missiles no longer explode inside a fast-approaching ship
+        behind walls they didn't break.
+  id: 100142
+  time: '2026-10-15T19:20:32.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/252
