@@ -5,7 +5,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    head: ClothingHeadHatCircusClown
+    head: WFClothingHeadHatCircusClown
 
 - type: loadout
   id: WFContractorClothingUniformCircusClown
@@ -14,7 +14,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformCircusClown
+    jumpsuit: WFClothingUniformCircusClown
 
 - type: loadout
   id: WFContractorClothingUniformJokester
@@ -23,7 +23,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJokester
+    jumpsuit: WFClothingUniformJokester
 
 - type: loadout
   id: WFContractorClothingOuterCoatJokester
@@ -32,7 +32,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    outerClothing: ClothingOuterCoatJokester
+    outerClothing: WFClothingOuterCoatJokester
 
 - type: loadout
   id: WFContractorClothingUniformJesterEvil
@@ -41,7 +41,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJesterEvil
+    jumpsuit: WFClothingUniformJesterEvil
 
 - type: loadout
   id: WFContractorClothingHeadJesterEvilHat
@@ -50,7 +50,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    head: ClothingHeadJesterEvilHat
+    head: WFClothingHeadJesterEvilHat
 
 - type: loadout
   id: WFContractorClothingNeckRuffle
@@ -59,7 +59,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    neck: ClothingNeckRuffle
+    neck: WFClothingNeckRuffle
 
 - type: loadout
   id: WFContractorClothingMaskClownNose
@@ -69,7 +69,7 @@
   price: 0
   storage:
     back:
-    - ClothingMaskClownNose
+    - WFClothingMaskClownNose
 
 - type: loadout
   id: WFContractorClothingShoesCircus
@@ -81,7 +81,7 @@
     proto: ShoesCapableNF
   price: 0
   equipment:
-    shoes: ClothingShoesCircus
+    shoes: WFClothingShoesCircus
 
 - type: loadout
   id: WFContractorClothingShoesJokester
@@ -93,7 +93,7 @@
     proto: ShoesCapableNF
   price: 0
   equipment:
-    shoes: ClothingShoesJokester
+    shoes: WFClothingShoesJokester
 
 - type: loadout
   id: WFContractorClothingShoesJesterEvilJanglers
@@ -105,7 +105,7 @@
     proto: ShoesCapableNF
   price: 0
   equipment:
-    shoes: ClothingShoesJesterEvilJanglers
+    shoes: WFClothingShoesJesterEvilJanglers
 
 - type: loadout
   id: WFContractorCandyClownUniformSuit
@@ -114,7 +114,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: CandyClownUniformSuit
+    jumpsuit: WFCandyClownUniformSuit
 
 - type: loadout
   id: WFContractorStripedClownUniformSuit
@@ -123,7 +123,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: StripedClownUniformSuit
+    jumpsuit: WFStripedClownUniformSuit
 
 - type: loadout
   id: WFContractorSpottedClownUniformSuit
@@ -132,7 +132,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: SpottedClownUniformSuit
+    jumpsuit: WFSpottedClownUniformSuit
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitPerformerClown
@@ -141,7 +141,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitPerformerClown
+    jumpsuit: WFClothingUniformJumpsuitPerformerClown
 
 - type: loadout
   id: WFContractorClothingUniformJumpskirtPerformerClown
@@ -150,7 +150,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpskirtPerformerClown
+    jumpsuit: WFClothingUniformJumpskirtPerformerClown
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitClownFormal
@@ -159,7 +159,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitClownFormal
+    jumpsuit: WFClothingUniformJumpsuitClownFormal
 
 - type: loadout
   id: WFContractorClothingUniformJumpskirtClownFormal
@@ -168,7 +168,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpskirtClownFormal
+    jumpsuit: WFClothingUniformJumpskirtClownFormal
 
 - type: loadout
   id: WFContractorCoolCoyoteClothesSexyclown
@@ -177,7 +177,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: CoolCoyoteClothesSexyclown
+    jumpsuit: WFCoolCoyoteClothesSexyclown
 
 - type: loadout
   id: WFContractorClothingHeadHatMimeBowler
@@ -186,7 +186,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    head: ClothingHeadHatMimeBowler
+    head: WFClothingHeadHatMimeBowler
 
 - type: loadout
   id: WFContractorClothingOuterCoatPufferMime
@@ -195,7 +195,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    outerClothing: ClothingOuterCoatPufferMime
+    outerClothing: WFClothingOuterCoatPufferMime
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitMimeCropped
@@ -204,7 +204,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMimeCropped
+    jumpsuit: WFClothingUniformJumpsuitMimeCropped
 
 - type: loadout
   id: WFContractorClothingUniformJumpskirtMimeCropped
@@ -213,7 +213,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpskirtMimeCropped
+    jumpsuit: WFClothingUniformJumpskirtMimeCropped
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitMimeNouveau
@@ -222,7 +222,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMimeNouveau
+    jumpsuit: WFClothingUniformJumpsuitMimeNouveau
 
 - type: loadout
   id: WFContractorClothingUniformJumpskirtMimeNouveau
@@ -231,7 +231,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpskirtMimeNouveau
+    jumpsuit: WFClothingUniformJumpskirtMimeNouveau
 
 - type: loadout
   id: WFContractorClothingShoesMimeBoots
@@ -243,7 +243,7 @@
     proto: ShoesCapableNF
   price: 0
   equipment:
-    shoes: ClothingShoesMimeBoots
+    shoes: WFClothingShoesMimeBoots
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitPerformerMime
@@ -252,7 +252,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitPerformerMime
+    jumpsuit: WFClothingUniformJumpsuitPerformerMime
 
 - type: loadout
   id: WFContractorClothingUniformJumpskirtPerformerMime
@@ -261,7 +261,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpskirtPerformerMime
+    jumpsuit: WFClothingUniformJumpskirtPerformerMime
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitMimeSuaveWhite
@@ -270,7 +270,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMimeSuaveWhite
+    jumpsuit: WFClothingUniformJumpsuitMimeSuaveWhite
 
 - type: loadout
   id: WFContractorClothingUniformJumpsuitMimeSuaveBlack
@@ -279,7 +279,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMimeSuaveBlack
+    jumpsuit: WFClothingUniformJumpsuitMimeSuaveBlack
 
 - type: loadout
   id: WFContractorMimeFrillsUniformSuit
@@ -288,7 +288,7 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: MimeFrillsUniformSuit
+    jumpsuit: WFMimeFrillsUniformSuit
 
 - type: loadout
   id: WFContractorClothingMaskSusMime
@@ -298,7 +298,7 @@
   price: 0
   storage:
     back:
-    - ClothingMaskSusMime
+    - WFClothingMaskSusMime
 
 - type: loadout
   id: WFContractorClothingUnderSocksMime
@@ -310,7 +310,7 @@
     proto: ShoesCapableNF
   price: 0
   equipment:
-    shoes: ClothingUnderSocksMime
+    shoes: WFClothingUnderSocksMime
 
 - type: loadout
   id: WFContractorClothingMaskMimeSecurity
@@ -320,7 +320,7 @@
   price: 0
   storage:
     back:
-    - ClothingMaskMimeSecurity
+    - WFClothingMaskMimeSecurity
 
 - type: loadout
   id: WFContractorCoolCoyoteClothesSexymime
@@ -329,4 +329,4 @@
     proto: ContractorT1
   price: 0
   equipment:
-    jumpsuit: CoolCoyoteClothesSexymime
+    jumpsuit: WFCoolCoyoteClothesSexymime

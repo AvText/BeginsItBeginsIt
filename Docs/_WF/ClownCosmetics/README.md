@@ -81,6 +81,7 @@ the Coyote outfits sit on `ClothingUniformSkirtBase`.
 
 ## Non-modular edits
 
+- [`Resources/migration.yml`](../../../Resources/migration.yml): WF prefix on the ported clown and mime clothing
 - [`Resources/Prototypes/_NF/Loadouts/contractor_loadout_groups.yml`](../../../Resources/Prototypes/_NF/Loadouts/contractor_loadout_groups.yml)
 
 <!-- WOLFGATE-GENERATED END -->

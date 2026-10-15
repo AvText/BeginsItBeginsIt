@@ -1,5 +1,5 @@
 - type: soundCollection
-  id: FootstepBoots
+  id: WFFootstepBoots
   files:
   - /Audio/_WF/ClownCosmetics/Footsteps/boots1.ogg
   - /Audio/_WF/ClownCosmetics/Footsteps/boots2.ogg

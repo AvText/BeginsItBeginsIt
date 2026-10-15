@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatCircusClown
+  id: WFClothingHeadHatCircusClown
   components:
   - type: Icon
     sprite: _WF/ClownCosmetics/Clothing/Head/Hats/circusclownhat.rsi
@@ -12,12 +12,12 @@
     clothingVisuals:
       head:
       - state: equipped-HELMET
-        offset: "0, 0.15" #this shit is so fiddly and i don't understand it at all
+        offset: "0, 0.15"
     sprite: _WF/ClownCosmetics/Clothing/Head/Hats/circusclownhat.rsi
 
 - type: entity
   parent: [ClothingUniformBase]
-  id: ClothingUniformCircusClown
+  id: WFClothingUniformCircusClown
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/circusclown.rsi
@@ -26,7 +26,7 @@
 
 - type: entity
   parent: [ClothingUniformBase]
-  id: ClothingUniformJokester
+  id: WFClothingUniformJokester
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/clown_jokester.rsi
@@ -35,7 +35,7 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
-  id: ClothingOuterCoatJokester
+  id: WFClothingOuterCoatJokester
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/OuterClothing/Coats/clown_jokestercoat.rsi
@@ -44,7 +44,7 @@
 
 - type: entity
   parent: [ClothingUniformBase]
-  id: ClothingUniformJesterEvil
+  id: WFClothingUniformJesterEvil
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/jesterevil.rsi
@@ -57,7 +57,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadJesterEvilHat
+  id: WFClothingHeadJesterEvilHat
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Head/Hats/jesterevilhat.rsi
@@ -70,14 +70,14 @@
 
 - type: entity
   parent: [ ClothingNeckBase]
-  id: ClothingNeckRuffle
+  id: WFClothingNeckRuffle
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Neck/Misc/ruffle.rsi
 
 - type: entity
   parent: ClothingMaskBase
-  id: ClothingMaskClownNose
+  id: WFClothingMaskClownNose
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Mask/clownnose.rsi
@@ -89,7 +89,7 @@
 
 - type: entity
   parent: ClothingShoesClown
-  id: ClothingShoesCircus
+  id: WFClothingShoesCircus
   components:
     - type: Sprite
       sprite: _WF/ClownCosmetics/Clothing/Shoes/Specific/circusclownshoes.rsi
@@ -103,7 +103,7 @@
 
 - type: entity
   parent: ClothingShoesClown
-  id: ClothingShoesJokester
+  id: WFClothingShoesJokester
   components:
     - type: Sprite
       sprite: _WF/ClownCosmetics/Clothing/Shoes/Specific/clown_jokestershoes.rsi
@@ -112,7 +112,7 @@
 
 - type: entity
   parent: ClothingShoesBaseButcherable
-  id: ClothingShoesJesterEvilJanglers
+  id: WFClothingShoesJesterEvilJanglers
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Shoes/Specific/jestereviljanglers.rsi
@@ -129,7 +129,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatMimeBowler
+  id: WFClothingHeadHatMimeBowler
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Head/Hats/mimebowler.rsi
@@ -142,7 +142,7 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
-  id: ClothingOuterCoatPufferMime
+  id: WFClothingOuterCoatPufferMime
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/OuterClothing/Coats/big_puffercoat_mime.rsi
@@ -153,7 +153,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitMimeCropped
+  id: WFClothingUniformJumpsuitMimeCropped
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/mimecropped.rsi
@@ -162,7 +162,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtMimeCropped
+  id: WFClothingUniformJumpskirtMimeCropped
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpskirt/mimecropped.rsi
@@ -171,7 +171,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitMimeNouveau
+  id: WFClothingUniformJumpsuitMimeNouveau
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/mimenouveau.rsi
@@ -179,8 +179,8 @@
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/mimenouveau.rsi
 
 - type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpskirtMimeNouveau
+  parent: ClothingUniformSkirtBase
+  id: WFClothingUniformJumpskirtMimeNouveau
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpskirt/mimenouveau.rsi
@@ -189,7 +189,7 @@
 
 - type: entity
   parent: ClothingShoesBase
-  id: ClothingShoesMimeBoots
+  id: WFClothingShoesMimeBoots
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Shoes/Boots/mimeboots.rsi
@@ -197,11 +197,11 @@
     sprite: _WF/ClownCosmetics/Clothing/Shoes/Boots/mimeboots.rsi
   - type: FootstepModifier
     footstepSoundCollection:
-      collection: FootstepBoots
+      collection: WFFootstepBoots
 
 - type: entity
   parent: ClothingUniformBase
-  id: CandyClownUniformSuit
+  id: WFCandyClownUniformSuit
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/candy_clown.rsi
@@ -214,7 +214,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: StripedClownUniformSuit
+  id: WFStripedClownUniformSuit
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/striped_clown.rsi
@@ -227,7 +227,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: SpottedClownUniformSuit
+  id: WFSpottedClownUniformSuit
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/clown_spots.rsi
@@ -240,7 +240,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitPerformerClown
+  id: WFClothingUniformJumpsuitPerformerClown
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/performer_clown.rsi
@@ -248,8 +248,8 @@
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/performer_clown.rsi
 
 - type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpskirtPerformerClown
+  parent: ClothingUniformSkirtBase
+  id: WFClothingUniformJumpskirtPerformerClown
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpskirt/performer_clown.rsi
@@ -258,7 +258,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitClownFormal
+  id: WFClothingUniformJumpsuitClownFormal
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/clown_distinguished.rsi
@@ -266,8 +266,8 @@
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/clown_distinguished.rsi
 
 - type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpskirtClownFormal
+  parent: ClothingUniformSkirtBase
+  id: WFClothingUniformJumpskirtClownFormal
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpskirt/clown_distinguished.rsi
@@ -276,7 +276,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitPerformerMime
+  id: WFClothingUniformJumpsuitPerformerMime
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/performer_mime.rsi
@@ -284,8 +284,8 @@
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/performer_mime.rsi
 
 - type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpskirtPerformerMime
+  parent: ClothingUniformSkirtBase
+  id: WFClothingUniformJumpskirtPerformerMime
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpskirt/performer_mime.rsi
@@ -294,7 +294,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitMimeSuaveWhite
+  id: WFClothingUniformJumpsuitMimeSuaveWhite
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/suave-mime.rsi
@@ -303,7 +303,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitMimeSuaveBlack
+  id: WFClothingUniformJumpsuitMimeSuaveBlack
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/Jumpsuit/suave-mime-black.rsi
@@ -312,7 +312,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: MimeFrillsUniformSuit
+  id: WFMimeFrillsUniformSuit
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Uniforms/mime_frills.rsi
@@ -321,7 +321,7 @@
 
 - type: entity
   parent: ClothingMaskMime
-  id: ClothingMaskSusMime
+  id: WFClothingMaskSusMime
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Mask/mime_sus.rsi
@@ -330,7 +330,7 @@
 
 - type: entity
   parent: ClothingShoesBase
-  id: ClothingUnderSocksMime
+  id: WFClothingUnderSocksMime
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Under/mime_socks.rsi
@@ -339,7 +339,7 @@
 
 - type: entity
   parent: ClothingMaskMime
-  id: ClothingMaskMimeSecurity
+  id: WFClothingMaskMimeSecurity
   components:
   - type: Sprite
     sprite: _WF/ClownCosmetics/Clothing/Mask/mime_security.rsi
@@ -355,7 +355,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: CoolCoyoteClothesSexyclown
+  id: WFCoolCoyoteClothesSexyclown
   components:
   - type: Sprite
     overrideDir: South
@@ -371,7 +371,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: CoolCoyoteClothesSexymime
+  id: WFCoolCoyoteClothesSexymime
   components:
   - type: Sprite
     overrideDir: South
