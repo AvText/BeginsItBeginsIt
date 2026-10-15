@@ -1704,3 +1704,10 @@ Entries:
   id: 100137
   time: '2026-10-15T01:19:42.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/246
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: An SOS button in the PA tab of your ship, press this to get help.
+  id: 100138
+  time: '2026-10-15T02:23:33.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/247
