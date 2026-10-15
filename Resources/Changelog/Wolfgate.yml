@@ -1711,3 +1711,10 @@ Entries:
   id: 100138
   time: '2026-10-15T02:23:33.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/247
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Reaver strongholds should no longer run out of power and despawn.
+  id: 100139
+  time: '2026-10-15T08:20:13.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/249
