@@ -638,10 +638,10 @@ public sealed partial class WFEncounterSystem : EntitySystem
         if (state.Stealth)
             _shuttles.AddIFFFlag(grid, Content.Shared.Shuttles.Components.IFFFlags.HideLabel);
 
-        // Cargo goes aboard first, so the crew are posted around it and not on it.
+        // Cargo goes aboard first, so the crew are posted around it and not on it, and where it walls off no route.
         if (manifest != null && manifest.Crates.Count > 0)
         {
-            foreach (var tile in _planner.HoldTiles(grid, ship.Cargo))
+            foreach (var tile in _planner.CargoTiles(grid, ship.Cargo))
             {
                 Spawn(_random.Pick(manifest.Crates), tile);
             }
@@ -1012,10 +1012,11 @@ public sealed partial class WFEncounterSystem : EntitySystem
             if (HoldsForVisitors(ship) && ship.HasOrders)
                 Serve(ship);
 
-            // A persistent ship outlives its first stores: its engineer's crate is topped up, and with no engineer left
-            // the plant is kept running as a fighter's is.
+            // A persistent ship outlives its first stores: its engineer's crate is topped up, and with no engineer left,
+            // or a plant he let burn dry, the plant is kept running as a fighter's is.
             var persistent = encounter.Comp.Lifetime == WFEncounterLifetime.Persistent;
-            if ((ship.AutoRefuel || persistent && !HasLivingEngineer(ship)) && !IsStranded(ship) && HasLivingCrew(ship))
+            if ((ship.AutoRefuel || persistent && (!HasLivingEngineer(ship) || _work.PlantDry(ship.Grid)))
+                && !IsStranded(ship) && HasLivingCrew(ship))
                 _work.Refuel(ship.Grid);
             else if (persistent && now >= ship.NextStock && !IsStranded(ship) && HasLivingCrew(ship))
             {
