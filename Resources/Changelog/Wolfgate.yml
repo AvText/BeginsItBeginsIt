@@ -1758,3 +1758,10 @@ Entries:
   id: 100143
   time: '2026-10-15T20:56:57.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/253
+- author: DriftingSkies
+  changes:
+    - type: Tweak
+      message: Rename Spesos to Thalers.
+  id: 100144
+  time: '2026-10-15T21:33:31.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/251
