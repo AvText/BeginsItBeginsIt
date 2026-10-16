@@ -12,7 +12,6 @@ namespace Content.Client._WF.RoundSetup;
 public sealed partial class WFRoundSetupWindow
 {
     private NetUserId? _shipCandidateOwner;
-    private string _shipSearch = string.Empty;
     private VesselClass _shipClass = VesselClass.All;
 
     private static string ShipStartKey(WFShipStartLocation location) => location switch
@@ -202,23 +201,14 @@ public sealed partial class WFRoundSetupWindow
         return Panel(content);
     }
 
-    /// <summary>A name search and a class filter that narrow the ship selector.</summary>
+    /// <summary>A class filter that narrows the ship selector.</summary>
     private Control ShipFilters(WFRoundSetupState state, Action changed)
     {
-        var search = new LineEdit
-        {
-            Name = "RoundSetupShipSearch", Text = _shipSearch, PlaceHolder = Text("ship-search"), HorizontalExpand = true,
-        };
-        search.OnTextChanged += args =>
-        {
-            _shipSearch = args.Text;
-            changed();
-        };
         var classes = state.Vessels.SelectMany(vessel => PreviewVessel(vessel.Id)?.Classes ?? new List<VesselClass>())
             .Where(shipClass => shipClass != VesselClass.All).Distinct().Order().Prepend(VesselClass.All).ToList();
         if (!classes.Contains(_shipClass))
             _shipClass = VesselClass.All;
-        var filter = new OptionButton { Name = "RoundSetupShipClass", MinWidth = 150 };
+        var filter = new OptionButton { Name = "RoundSetupShipClass", HorizontalExpand = true };
         for (var i = 0; i < classes.Count; i++)
             filter.AddItem(classes[i] == VesselClass.All ? Text("ship-class-all") : Loc.GetString($"shipyard-console-class-{classes[i]}"), i);
         filter.SelectId(classes.IndexOf(_shipClass));
@@ -228,18 +218,11 @@ public sealed partial class WFRoundSetupWindow
             _shipClass = classes[args.Id];
             changed();
         };
-        var row = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Horizontal, SeparationOverride = 6, HorizontalExpand = true };
-        row.AddChild(search);
-        row.AddChild(filter);
-        return row;
+        return filter;
     }
 
-    private bool ShipMatches(WFRoundSetupVessel vessel)
-    {
-        if (_shipSearch.Length > 0 && !vessel.Name.Contains(_shipSearch.Trim(), StringComparison.OrdinalIgnoreCase))
-            return false;
-        return _shipClass == VesselClass.All || PreviewVessel(vessel.Id)?.Classes.Contains(_shipClass) == true;
-    }
+    private bool ShipMatches(WFRoundSetupVessel vessel) =>
+        _shipClass == VesselClass.All || PreviewVessel(vessel.Id)?.Classes.Contains(_shipClass) == true;
 
     private VesselPrototype? PreviewVessel(string? id) =>
         id != null && _prototypes.TryIndex<VesselPrototype>(id, out var vessel) ? vessel : null;

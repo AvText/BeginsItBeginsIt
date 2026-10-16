@@ -82,7 +82,6 @@ wf-round-setup-ship-empty = No ships are currently offered. Refresh when the shi
 wf-round-setup-ship-placeholder = Choose a ship…
 wf-round-setup-ship-select-help = Preview a ship, then select it for this lobby.
 wf-round-setup-ship-option = { $ship } · { $price }
-wf-round-setup-ship-search = Search ships
 wf-round-setup-ship-class-all = All classes
 wf-round-setup-select-ship = Select ship
 wf-round-setup-ready-purchase = Ready — authorize my character to pay { $price }
