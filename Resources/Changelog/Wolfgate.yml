@@ -1890,3 +1890,10 @@ Entries:
   id: 100152
   time: '2026-10-17T09:03:53.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/269
+- author: Happyowl93
+  changes:
+    - type: Tweak
+      message: engine bumped to 291
+  id: 100153
+  time: '2026-10-17T09:38:38.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/121
