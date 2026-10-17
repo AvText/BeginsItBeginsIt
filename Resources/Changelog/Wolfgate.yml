@@ -1897,3 +1897,10 @@ Entries:
   id: 100153
   time: '2026-10-17T09:38:38.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/121
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: 'Showers have been added! Check construction menu. '
+  id: 100154
+  time: '2026-10-17T22:38:47.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/271
