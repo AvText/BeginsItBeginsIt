@@ -39,7 +39,6 @@ public sealed partial class WFShipScenarioSystem : EntitySystem
     [Dependency] private IPrototypeManager _prototypes = default!;
     [Dependency] private IServerPreferencesManager _preferences = default!;
     [Dependency] private IRobustRandom _random = default!;
-    [Dependency] private IMapManager _maps = default!;
     [Dependency] private GameTicker _ticker = default!;
     [Dependency] private BankSystem _bank = default!;
     [Dependency] private SectorServiceSystem _sectorServices = default!;
@@ -288,7 +287,7 @@ public sealed partial class WFShipScenarioSystem : EntitySystem
             _transform.SetCoordinates(hull, new EntityCoordinates(map, position));
             var bounds = _transform.GetWorldMatrix(hull).TransformBox(grid.LocalAABB).Enlarged(100f);
             nearby.Clear();
-            _maps.FindGridsIntersecting(mapId, bounds, ref nearby, approx: true, includeMap: false);
+            _map.FindGridsIntersecting(mapId, bounds, ref nearby, approx: true, includeMap: false);
             if (nearby.All(other => other.Owner == hull))
                 return true;
         }

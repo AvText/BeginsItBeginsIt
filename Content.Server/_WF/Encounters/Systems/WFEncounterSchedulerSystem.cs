@@ -34,7 +34,7 @@ public sealed partial class WFEncounterSchedulerSystem : EntitySystem
     [Dependency] private IRobustRandom _random = default!;
     [Dependency] private IConfigurationManager _config = default!;
     [Dependency] private IPlayerManager _playerManager = default!;
-    [Dependency] private IMapManager _maps = default!;
+    [Dependency] private SharedMapSystem _maps = default!;
     [Dependency] private GameTicker _ticker = default!;
     [Dependency] private WFEncounterSystem _encounters = default!;
     [Dependency] private MobStateSystem _mobs = default!;
@@ -598,7 +598,7 @@ public sealed partial class WFEncounterSchedulerSystem : EntitySystem
     /// <summary>Whether a point on a map is open sector space, clear of grids, stations, planet wells and hidden stations.</summary>
     public bool IsClearSpace(MapId map, Vector2 point, float gridClearance, float stationClearance)
     {
-        if (!_maps.MapExists(map) || !IsSector(map, _maps.GetMapEntityId(map)))
+        if (!_maps.MapExists(map) || !IsSector(map, _maps.GetMapOrInvalid(map)))
             return false;
 
         _nearby.Clear();
@@ -629,7 +629,7 @@ public sealed partial class WFEncounterSchedulerSystem : EntitySystem
 
             // A body without a mob state still counts; ghosts and the dead don't. Only the sector is open space:
             // a player on a planet, in its orbit or in a cavern is no place to put ships beside.
-            if (where.MapId != MapId.Nullspace && IsSector(where.MapId, _maps.GetMapEntityId(where.MapId)))
+            if (where.MapId != MapId.Nullspace && IsSector(where.MapId, _maps.GetMapOrInvalid(where.MapId)))
                 anchors.Add(where);
         }
 
