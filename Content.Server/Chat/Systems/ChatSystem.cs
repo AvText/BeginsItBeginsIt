@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
+using Content.Server._WF.DeadChatWebhook; // WOLFGATE(DeadChatWebhook)
 using Content.Server.Chat.Managers;
 using Content.Server.Discord.DiscordLink;
 using Content.Server.GameTicking;
@@ -889,6 +890,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         // Format author name as "Character Name (Username)" for Discord
         var discordAuthor = $"{playerName} ({player.Name})";
         _discordLink.SendMessage(message, discordAuthor, ChatChannel.Dead);
+        RaiseLocalEvent(new DeadChatSentEvent(discordAuthor, message)); // WOLFGATE(DeadChatWebhook): one-way Discord webhook copy
     }
     #endregion
 
