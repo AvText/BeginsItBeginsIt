@@ -1883,3 +1883,10 @@ Entries:
   id: 100151
   time: '2026-10-17T09:03:48.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/268
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: Encounters now allow you to claim the ships making them never despawn
+  id: 100152
+  time: '2026-10-17T09:03:53.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/269
