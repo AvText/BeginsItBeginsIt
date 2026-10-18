@@ -2104,3 +2104,13 @@ Entries:
   id: 100164
   time: '2026-10-18T18:33:02.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/284
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        A new bug report/feature suggestion service for you to report bugs and
+        request things, all reports are read and you'll be notified of the
+        outcome in-game!
+  id: 100165
+  time: '2026-10-18T18:52:03.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/278
