@@ -2114,3 +2114,10 @@ Entries:
   id: 100165
   time: '2026-10-18T18:52:03.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/278
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: Chimeras can no longer revive once dead until after 3 minutes.
+  id: 100166
+  time: '2026-10-18T21:11:16.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/285
