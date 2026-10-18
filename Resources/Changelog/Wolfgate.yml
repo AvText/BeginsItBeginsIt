@@ -1922,3 +1922,12 @@ Entries:
   id: 100155
   time: '2026-10-17T23:57:09.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/270
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: A new event chat in-game.
+    - type: Add
+      message: Split Ahelp into two categories, Gameplay and Player. Use appropriately.
+  id: 100156
+  time: '2026-10-18T00:58:28.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/274
