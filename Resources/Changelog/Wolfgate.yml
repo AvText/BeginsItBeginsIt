@@ -2151,3 +2151,12 @@ Entries:
   id: 100168
   time: '2026-10-18T21:34:19.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/280
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        Pirate and other NPC ships now notice and fire on mechs flying in open
+        space, and fight back when a mech attacks them.
+  id: 100169
+  time: '2026-10-18T23:48:36.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/286
