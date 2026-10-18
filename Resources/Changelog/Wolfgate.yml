@@ -2010,3 +2010,18 @@ Entries:
   id: 100159
   time: '2026-10-18T03:48:27.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/262
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        Synths now run on hydraulic fluid, so hydraulic packs, IV drips and the
+        autodoc can refill them.
+    - type: Fix
+      message: >-
+        Synth power cells can be taken out and put back in with surgery on the
+        opened torso.
+    - type: Add
+      message: The exosuit fabricator can now print replacement synth organs.
+  id: 100160
+  time: '2026-10-18T06:04:58.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/277
