@@ -230,6 +230,7 @@ ground overhead is a ceiling (the Caverns `WfSealedAbove`). `WFAtmosphericJetpac
 - [`Content.IntegrationTests/Tests/_WF/Planets/PlanetRadarTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/PlanetRadarTest.cs)
 - [`Content.IntegrationTests/Tests/_WF/Planets/PlanetTimepieceTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/PlanetTimepieceTest.cs)
 - [`Content.IntegrationTests/Tests/_WF/Planets/PlanetWeatherTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/PlanetWeatherTest.cs)
+- [`Content.IntegrationTests/Tests/_WF/Planets/SectorBodyPinTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/SectorBodyPinTest.cs)
 - [`Content.IntegrationTests/Tests/_WF/Planets/SetDownTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/SetDownTest.cs)
 - [`Content.IntegrationTests/Tests/_WF/Planets/StructuralCrashTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/StructuralCrashTest.cs)
 - [`Content.IntegrationTests/Tests/_WF/Planets/TerrainAtmosphereTest.cs`](../../../Content.IntegrationTests/Tests/_WF/Planets/TerrainAtmosphereTest.cs)
@@ -420,7 +421,9 @@ ground overhead is a ceiling (the Caverns `WfSealedAbove`). `WFAtmosphericJetpac
   - a hull that sets down breaks the trees and rocks it would rest against
 - [`Content.Server/_CE/ZLevels/Core/CEZLevelsSystem.View.cs`](../../_CE/ZLevels/Core/CEZLevelsSystem.View.cs): a planet's lower layers are drawn smaller, so their eyes see wider
 - [`Content.Server/_CE/ZLevels/Core/CEZLevelsSystem.WallCollision.cs`](../../_CE/ZLevels/Core/CEZLevelsSystem.WallCollision.cs): a skidding hull flattens obstacles instead of bouncing.
-- [`Content.Server/_FarHorizons/StarSystem/StarSystemMapSystem.cs`](../../_FarHorizons/StarSystem/StarSystemMapSystem.cs): register sector bodies that have a Wolfgate surface.
+- [`Content.Server/_FarHorizons/StarSystem/StarSystemMapSystem.cs`](../../_FarHorizons/StarSystem/StarSystemMapSystem.cs)
+  - keep the star off hulls that arrive on top of it.
+  - register sector bodies that have a Wolfgate surface.
 - [`Content.Server/Atmos/EntitySystems/AtmosphereSystem.API.cs`](../../Atmos/EntitySystems/AtmosphereSystem.API.cs): bare planet ground nobody built on isn't tracked
 - [`Content.Server/Atmos/EntitySystems/AtmosphereSystem.Processing.cs`](../../Atmos/EntitySystems/AtmosphereSystem.Processing.cs)
   - bare planet ground keeps no map tile alive
