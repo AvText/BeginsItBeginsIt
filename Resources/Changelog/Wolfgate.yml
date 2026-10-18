@@ -2062,3 +2062,20 @@ Entries:
   id: 100161
   time: '2026-10-18T08:28:25.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/272
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Hail a trader that's on the move and ask it to hold position so you can
+        dock and trade.
+    - type: Tweak
+      message: Traders now run from attackers instead of circling them.
+    - type: Add
+      message: >-
+        NPC crews tell you to put your gun away if they see you holding one
+        aboard their ship. Ignore them for 10 seconds and they open fire.
+    - type: Add
+      message: NPC crews attack anyone they catch taking things from their ship.
+  id: 100162
+  time: '2026-10-18T11:32:04.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/281
