@@ -2079,3 +2079,16 @@ Entries:
   id: 100162
   time: '2026-10-18T11:32:04.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/281
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Planet orbit markers no longer attach themselves to ships entering
+        orbit.
+    - type: Fix
+      message: >-
+        NPC encounters no longer vanish when their lead ship is destroyed or
+        despawns.
+  id: 100163
+  time: '2026-10-18T11:33:01.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/279
