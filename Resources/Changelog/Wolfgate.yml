@@ -2025,3 +2025,40 @@ Entries:
   id: 100160
   time: '2026-10-18T06:04:58.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/277
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        The Automated Defense System is loose in the sector. Its nodes hold
+        ground in purple on the sector map, sweeps and sentinels fly it, and it
+        never touches a station.
+    - type: Add
+      message: >-
+        Enter ADS space and the nearest ADS ship hails your console with one
+        question: are you a threat? Answer no, or don't fire, and it leaves you
+        alone. Answer yes, or shoot first, and it disables you.
+    - type: Add
+      message: >-
+        The ADS and the Ashfall Reavers fight over cells. ADS interdictors
+        contest Reaver space and the Reavers scramble gunships to drive them
+        off. Join either side or pick off the winner.
+    - type: Add
+      message: >-
+        At Overrun the Reavers raise a citadel: a Vulture fortress with two
+        rings of territory that pays triple and buys the sector a lull when it
+        falls.
+    - type: Add
+      message: >-
+        ADS crews are bare automatons with unit designations and a synthetic
+        voice, and their alerts come in with the anomaly klaxon.
+    - type: Tweak
+      message: Ashfall is now the Contested Sector game mode and runs both threats.
+    - type: Tweak
+      message: >-
+        Sector Watch is quieter. Routine news goes over Common radio; only the
+        big events get a banner.
+    - type: Tweak
+      message: Pirates no longer fly adamantite. Their hulls arrive in plastitanium.
+  id: 100161
+  time: '2026-10-18T08:28:25.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/272
