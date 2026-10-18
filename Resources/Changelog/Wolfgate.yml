@@ -2121,3 +2121,12 @@ Entries:
   id: 100166
   time: '2026-10-18T21:11:16.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/285
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Added a search bar to the keybinds menu. Search by action name or by
+        key.
+  id: 100167
+  time: '2026-10-18T21:31:23.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/288
