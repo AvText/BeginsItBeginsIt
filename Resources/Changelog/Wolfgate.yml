@@ -1953,3 +1953,60 @@ Entries:
   id: 100158
   time: '2026-10-18T03:44:40.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/276
+- author: DriftingSkies
+  changes:
+    - type: Add
+      message: >-
+        The PDV CV-53 and TSFMC M92-X tacsuits have a new soft shield. Hits pass
+        through it, but while it's up it soaks 60% of incoming brute damage
+        (blunt, slash and piercing) and stops you from bleeding. Burns, lasers
+        included, pass straight through and only your armour stops them. The
+        field drains as it soaks damage and breaks when empty, and
+        shield-breaker rounds still shatter it.
+    - type: Tweak
+      message: >-
+        Every TSF and PDV tacsuit now has a distinct role within its tier. Suits
+        in the same tier are sidegrades of each other, and T3 suits are tougher
+        overall than T2.
+    - type: Tweak
+      message: >-
+        The M82b is now the TSF burn and environment suit: much better against
+        heat, now protects against shock, keeps its radiation and caustic
+        protection, and is weaker against brute.
+    - type: Tweak
+      message: >-
+        The SCAF is now the PDV burn suit: much better against heat and slightly
+        weaker against brute.
+    - type: Tweak
+      message: >-
+        The M82c and CV-32 are slightly tougher, and the CV-32 is now a little
+        faster.
+    - type: Tweak
+      message: >-
+        The CV-53 no longer resists heat nearly as well. Lasers are now the way
+        to get through its soft shield.
+    - type: Tweak
+      message: >-
+        The CV-280 Basilisk had T3 protection on a T2 suit. It is now a fast T2
+        skirmisher with lighter armour.
+    - type: Tweak
+      message: >-
+        The M86 Mk.4 has lost its hard shield and is now the fast T3 suit:
+        lighter armour, full movement speed. MARSOC's starting suit changes with
+        it.
+    - type: Tweak
+      message: The M92-X is now much faster but takes a little more heat damage.
+    - type: Tweak
+      message: The M86 Mk.3 takes a little more heat damage.
+    - type: Tweak
+      message: >-
+        The M92 colonel tacsuit is still the toughest suit, but by a smaller
+        margin.
+    - type: Tweak
+      message: >-
+        PDV tacsuits are cheaper at the pirate uplink, since PDV can't craft
+        them: the CV-32 and CV-53 cost 35 doubloons (were 45) and the CV-82
+        costs 80 (was 90).
+  id: 100159
+  time: '2026-10-18T03:48:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/262
