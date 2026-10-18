@@ -2130,3 +2130,24 @@ Entries:
   id: 100167
   time: '2026-10-18T21:31:23.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/288
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Every species now has a Biotype toggle in the character creator: Organic
+        or Synthetic. Synthetic characters get an IPC-style chassis (power cell,
+        hydraulic fluid, core and pump, repair with welders and cable); Organic
+        characters get a flesh body with blood, breathing and normal medicine.
+        IPC and Synth default to Synthetic, everyone else to Organic.
+    - type: Tweak
+      message: >-
+        Medical, traits, survival boxes and zombie infection now follow the
+        character's biotype rather than their species. A synthetic Vulpkanin is
+        treated like an IPC; an organic IPC like a human.
+    - type: Remove
+      message: >-
+        The fourteen Protogen subspecies are gone. Existing characters on them
+        load as Protogen; pick a species and set its biotype instead.
+  id: 100168
+  time: '2026-10-18T21:34:19.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/280
