@@ -1931,3 +1931,18 @@ Entries:
   id: 100156
   time: '2026-10-18T00:58:28.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/274
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Vending machines no longer crash clients.
+    - type: Tweak
+      message: >-
+        Rocks broken close together within a fifth of a second share one break
+        sound, so mass mining sends far fewer sounds over the network.
+    - type: Tweak
+      message: >-
+        Guns firing faster than 5 shots a second play at most 5 gunshot sounds a
+        second for other players. The shooter still hears every shot.
+  id: 100157
+  time: '2026-10-18T03:20:20.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/275
