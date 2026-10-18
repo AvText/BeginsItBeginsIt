@@ -132,6 +132,7 @@ refresh of everyone.
 - [`Content.Client/_WF/Feedback/FeedbackSurveyWindow.xaml.cs`](../../../Content.Client/_WF/Feedback/FeedbackSurveyWindow.xaml.cs)
 - [`Content.Client/_WF/Feedback/FeedbackSystem.cs`](../../../Content.Client/_WF/Feedback/FeedbackSystem.cs)
 - [`Content.Client/_WF/Feedback/FeedbackUIController.cs`](../../../Content.Client/_WF/Feedback/FeedbackUIController.cs)
+- [`Content.Client/_WF/Feedback/FeedbackUIController.MenuButton.cs`](../../../Content.Client/_WF/Feedback/FeedbackUIController.MenuButton.cs)
 - [`Content.Client/_WF/Feedback/FeedbackWindow.xaml`](../../../Content.Client/_WF/Feedback/FeedbackWindow.xaml)
 - [`Content.Client/_WF/Feedback/FeedbackWindow.xaml.cs`](../../../Content.Client/_WF/Feedback/FeedbackWindow.xaml.cs)
 
@@ -143,13 +144,22 @@ refresh of everyone.
 
 - [`Resources/Locale/en-US/_WF/Feedback/feedback.ftl`](../../../Resources/Locale/en-US/_WF/Feedback/feedback.ftl)
 
+### Textures
+
+- [`Resources/Textures/_WF/Feedback/attributions.yml`](../../../Resources/Textures/_WF/Feedback/attributions.yml)
+- [`Resources/Textures/_WF/Feedback/bug.png`](../../../Resources/Textures/_WF/Feedback/bug.png)
+
 ## Non-modular edits
 
-- [`Content.Client/Options/UI/EscapeMenu.xaml`](../../../Content.Client/Options/UI/EscapeMenu.xaml): bug report and suggestion entry
+- [`Content.Client/Lobby/UI/LobbyGui.xaml`](../../../Content.Client/Lobby/UI/LobbyGui.xaml): big green bug report and suggestion entry
+- [`Content.Client/Lobby/UI/LobbyGui.xaml.cs`](../../../Content.Client/Lobby/UI/LobbyGui.xaml.cs): bug report and suggestion entry in the lobby
+- [`Content.Client/Options/UI/EscapeMenu.xaml`](../../../Content.Client/Options/UI/EscapeMenu.xaml): bug report and suggestion entry, green so players find it
 - [`Content.Client/UserInterface/Systems/EscapeMenu/EscapeUIController.cs`](../../../Content.Client/UserInterface/Systems/EscapeMenu/EscapeUIController.cs)
   - bug report and suggestion entry in the game menu
   - offer the end of shift survey before leaving
   - offer the end of shift survey before quitting
+- [`Content.Client/UserInterface/Systems/MenuBar/GameTopMenuBarUIController.cs`](../../../Content.Client/UserInterface/Systems/MenuBar/GameTopMenuBarUIController.cs): bug report button
+- [`Content.Client/UserInterface/Systems/MenuBar/Widgets/GameTopMenuBar.xaml`](../../../Content.Client/UserInterface/Systems/MenuBar/Widgets/GameTopMenuBar.xaml): green bug report button beside ahelp
 - [`Content.Server.Database/Model.cs`](../../../Content.Server.Database/Model.cs)
   - player bug reports and suggestions
   - counted by who sent it and when for the daily limit, and listed by status

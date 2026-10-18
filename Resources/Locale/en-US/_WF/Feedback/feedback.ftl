@@ -1,4 +1,5 @@
 wf-feedback-button = Report a bug / Suggest
+wf-feedback-button-tooltip = Report a bug or suggest something
 wf-feedback-window-title = Bug reports and suggestions
 wf-feedback-tab-bug = Bug report
 wf-feedback-tab-suggestion = Suggestion
