@@ -25,6 +25,10 @@ Standalone edits outside `_WF` that serve no module: files with an untagged `WOL
 - [`Content.Client/Shuttles/UI/BaseShuttleControl.xaml.cs`](../../Content.Client/Shuttles/UI/BaseShuttleControl.xaml.cs): batch radar edges so huge grids don't overflow the game thread stack
 - [`Content.Client/UserInterface/Systems/Chat/Widgets/ChatBox.xaml.cs`](../../Content.Client/UserInterface/Systems/Chat/Widgets/ChatBox.xaml.cs): Replay seeks and filter changes rebuild the output from scratch.
 - [`Content.Client/VendingMachines/VendingMachineBoundUserInterface.cs`](../../Content.Client/VendingMachines/VendingMachineBoundUserInterface.cs): skip updates queued before Open(), _uiSystem is still null and the NRE crashes state handling
+- [`Content.Client/Wires/UI/WiresMenu.cs`](../../Content.Client/Wires/UI/WiresMenu.cs)
+  - engine 291 UIBox2 clamps inverted boxes to zero, so flip with a transform (upstream fix)
+  - flip/mirror wires via transform after engine 291
+  - restore transform after flipped wire draw
 - [`Content.IntegrationTests/Fixtures/GameTest.cs`](../../Content.IntegrationTests/Fixtures/GameTest.cs)
   - keeps the failure readable once the dirty dispose's warning replaces it.
   - a fixture object outlives its test, so it must not keep its pair.
