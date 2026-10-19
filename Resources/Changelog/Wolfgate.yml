@@ -2189,3 +2189,53 @@ Entries:
   id: 100171
   time: '2026-10-19T07:06:53.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/289
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Xenomorphs. Every RMC-14 caste is playable: larva, drone, lesser drone,
+        runner, lurker, warrior, ravager, praetorian (all strains), defender,
+        crusher, boiler, spitter, sentinel, burrower, hivelord (with the
+        designer strain), carrier, queen and king, with their abilities,
+        evolution and strains.
+    - type: Add
+      message: >-
+        The hive: hivemind chat (;), plasma, weeds and hive weeds, resin walls,
+        doors and membranes, nests, tunnels, hive core, clusters, pylons,
+        recovery and plasma nodes, egg morpher, acid pillar, traps, resin fruit,
+        and a resin sensor that works as a mass scanner.
+    - type: Add
+      message: >-
+        Eggs and facehuggers. Hosts (humans and monkeys) can be infected and
+        burst into larva. Anyone can plant an egg anywhere.
+    - type: Add
+      message: >-
+        Alien Embryo Removal surgery: surgeons and the autodoc can remove a
+        larva from an infected host.
+    - type: Add
+      message: >-
+        Ghosts can join a hive as a burrowed larva (Join Xeno) when one is
+        available. Burst larva nobody claims become ghost roles.
+    - type: Add
+      message: >-
+        A Xenonids section in the ghost menu and a Xenonids group in the admin
+        spawn menu; xeno_larva and hive admin commands.
+    - type: Add
+      message: Xenonid guidebook pages.
+    - type: Tweak
+      message: >-
+        Xeno acid melts any structure; xeno claws damage walls and airlocks by
+        RMC's rules (sharp claws and up; drones pry or acid). Fire burns weeds
+        and spreads along them; xenos pat fires out by clicking them. The queen
+        cannot be set on fire; king and ravager resist burn damage.
+    - type: Tweak
+      message: >-
+        Queens can pilot shuttle consoles but no xeno can use gunnery. Queens
+        and kings ignore air pressure. Station (CC) turrets shoot xenos.
+    - type: Tweak
+      message: >-
+        C4 and grenades collapse xeno tunnels; shovels and entrenching tools
+        fill them. Tunnels and burrowing never cross between grids.
+  id: 100172
+  time: '2026-10-19T07:30:20.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/282
