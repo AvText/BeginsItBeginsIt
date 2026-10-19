@@ -2239,3 +2239,26 @@ Entries:
   id: 100172
   time: '2026-10-19T07:30:20.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/282
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: >-
+        Ore veins now drop about two thirds of upstream yields instead of a
+        third; lithium veins always drop at least one ore.
+    - type: Tweak
+      message: >-
+        The scrap processor smelts strategic sheets for 250 raw scrap (lithium
+        1000) and lathe upgrades discount them again.
+    - type: Tweak
+      message: >-
+        The crystallizer makes five plastitanium sheets per batch instead of
+        one.
+    - type: Tweak
+      message: >-
+        Sand and chromite rocks are back in the 9 km asteroid ring at half their
+        old weight, and still spawn in the Wilds.
+    - type: Tweak
+      message: The hyper-convection upgrade kit fits ore processors again.
+  id: 100173
+  time: '2026-10-19T20:37:07.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/292
