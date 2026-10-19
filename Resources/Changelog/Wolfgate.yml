@@ -2262,3 +2262,10 @@ Entries:
   id: 100173
   time: '2026-10-19T20:37:07.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/292
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: You can now set your species blood and flesh colour.
+  id: 100174
+  time: '2026-10-19T22:48:11.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/293
