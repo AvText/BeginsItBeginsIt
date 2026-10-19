@@ -2269,3 +2269,26 @@ Entries:
   id: 100174
   time: '2026-10-19T22:48:11.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/293
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: Fixed severe server lag when drydocks repair large ships.
+    - type: Fix
+      message: >-
+        Mobile drydock cranes are now built in a 2x2 machine frame and can be
+        pulled while unbolted.
+    - type: Fix
+      message: >-
+        Breaking a ship at a mobile drydock no longer leaves its wiring behind
+        as cable coils.
+    - type: Fix
+      message: >-
+        Salvaged parts no longer get dropped through walls, and linked parts
+        silos now store circuit boards.
+    - type: Tweak
+      message: >-
+        The mobile drydock crane now needs plasteel, MV cable, motors and armor
+        plating to build.
+  id: 100175
+  time: '2026-10-19T23:12:32.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/290
