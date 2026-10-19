@@ -2175,3 +2175,17 @@ Entries:
   id: 100170
   time: '2026-10-19T00:30:52.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/287
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        TSF and Dynasty patrols no longer post themselves next to Caelestinus
+        Central when guarding a station nearby.
+    - type: Fix
+      message: >-
+        Scrolling over the markings, hair or facial hair lists now scrolls the
+        page once the list hits its top or bottom, so you can always scroll back
+        up.
+  id: 100171
+  time: '2026-10-19T07:06:53.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/289
