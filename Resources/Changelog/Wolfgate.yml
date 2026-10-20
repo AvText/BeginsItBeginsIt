@@ -2390,3 +2390,59 @@ Entries:
   id: 100180
   time: '2026-10-20T19:42:58.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/300
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Mapping mode: a server cvar (wf.mapping_mode.enabled) that turns the
+        server into a mapping workshop. No rounds, no maps loaded; the lobby
+        becomes a mapping menu where you create a map, join one by code, or open
+        one from your library.
+    - type: Add
+      message: >-
+        Mapping sessions: private maps with join codes, up to 8 members, owner
+        kick and new code, rejoin after a disconnect, z-levels per session.
+    - type: Add
+      message: >-
+        Full mapping tools for everyone in mapping mode, no admin needed, on a
+        dedicated mapping screen with a palette, Properties, Tools, Layers,
+        Template and Keys tabs, undockable panels, a movable mode bar and a
+        customisable quick-select bar.
+    - type: Add
+      message: >-
+        Build modes: Place, Erase, Select, Fill, Shape (line, rectangle, circle,
+        fill or border), Pick, Template, Pipe (smart pipes, atmos device box,
+        colour presets, network painting) and Link (signal links, device lists,
+        door access).
+    - type: Add
+      message: >-
+        Map library: numbered versions, autosave, Quicksave (Ctrl+S), download
+        to your data folder or anywhere with Save to, upload a map to edit
+        (unknown prototypes can be dropped), delete.
+    - type: Add
+      message: >-
+        Ship export: download a single-grid map as a ship grid with a generated
+        vessel prototype.
+    - type: Add
+      message: >-
+        PNG templates you can share with your session, and reference grids from
+        game ships, maps or your own saves.
+    - type: Add
+      message: >-
+        An in-game mapping guide, opened from the lobby, the Mapping window, the
+        Keys tab or the Guidebook button.
+    - type: Add
+      message: >-
+        Limits that keep the server healthy and stop griefing: map area, grids
+        per player, entities per tile and per map, request rates, library
+        quotas, protected players and ghosts, and a block list for things like
+        singularities and Nar'Sie.
+    - type: Add
+      message: >-
+        Admins keep every tool, get an Observe button in the lobby, and
+        wf_mappingmode_* commands to list, visit, save, close, kick and purge.
+    - type: Fix
+      message: The rcd/colornetwork command no longer runs for players without access.
+  id: 100181
+  time: '2026-10-20T23:35:44.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/294
