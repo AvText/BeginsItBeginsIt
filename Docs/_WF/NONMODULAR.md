@@ -25,7 +25,9 @@ Standalone edits outside `_WF` that serve no module: files with an untagged `WOL
 - [`Content.Client/Shuttles/UI/BaseShuttleControl.xaml.cs`](../../Content.Client/Shuttles/UI/BaseShuttleControl.xaml.cs)
   - v291 Box2 asserts on inverted corners in debug builds; order them
   - batch radar edges so huge grids don't overflow the game thread stack
+- [`Content.Client/UserInterface/Systems/Admin/AdminUIController.cs`](../../Content.Client/UserInterface/Systems/Admin/AdminUIController.cs): a HUD layout swap rebuilds the button visible
 - [`Content.Client/UserInterface/Systems/Chat/Widgets/ChatBox.xaml.cs`](../../Content.Client/UserInterface/Systems/Chat/Widgets/ChatBox.xaml.cs): Replay seeks and filter changes rebuild the output from scratch.
+- [`Content.Client/UserInterface/Systems/Sandbox/SandboxUIController.cs`](../../Content.Client/UserInterface/Systems/Sandbox/SandboxUIController.cs): a HUD layout swap rebuilds the button visible
 - [`Content.Client/VendingMachines/VendingMachineBoundUserInterface.cs`](../../Content.Client/VendingMachines/VendingMachineBoundUserInterface.cs): skip updates queued before Open(), _uiSystem is still null and the NRE crashes state handling
 - [`Content.Client/Wires/UI/WiresMenu.cs`](../../Content.Client/Wires/UI/WiresMenu.cs)
   - engine 291 UIBox2 clamps inverted boxes to zero, so flip with a transform (upstream fix)
@@ -74,6 +76,7 @@ Standalone edits outside `_WF` that serve no module: files with an untagged `WOL
 - [`Content.Server/Shuttles/Components/ShuttleComponent.cs`](../../Content.Server/Shuttles/Components/ShuttleComponent.cs): PDV pack, partial revert of Monolith speed cap (50->20)
 - [`Content.Server/Shuttles/Components/ThrusterComponent.cs`](../../Content.Server/Shuttles/Components/ThrusterComponent.cs): PDV pack, partial revert of Monolith thrust nerf (200->100)
 - [`Content.Server/Shuttles/Systems/FTLAntiCollisionSystem.cs`](../../Content.Server/Shuttles/Systems/FTLAntiCollisionSystem.cs): a docking jump ends on a free dock at its target, so don't push the shuttle off it
+- [`Content.Server/Shuttles/Systems/ShuttleConsoleSystem.cs`](../../Content.Server/Shuttles/Systems/ShuttleConsoleSystem.cs): an entry RemovePilot can't take out (no PilotComponent, or one for another console) hung the server
 - [`Content.Server/Shuttles/Systems/ShuttleSystem.FasterThanLight.cs`](../../Content.Server/Shuttles/Systems/ShuttleSystem.FasterThanLight.cs)
   - start a real jump, as an ensured FTLComponent stayed Available and was removed
   - pick the dock without teleporting the shuttle there before the jump
