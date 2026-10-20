@@ -2292,3 +2292,12 @@ Entries:
   id: 100175
   time: '2026-10-19T23:12:32.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/290
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        Ships with no crew, pilot or running engines now drift to a stop, which
+        cuts network lag and stutter for everyone.
+  id: 100176
+  time: '2026-10-20T03:15:10.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/296
