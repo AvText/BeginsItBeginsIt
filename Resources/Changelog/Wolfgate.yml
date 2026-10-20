@@ -2339,3 +2339,10 @@ Entries:
   id: 100177
   time: '2026-10-20T05:14:27.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/295
+- author: bluebrouny
+  changes:
+    - type: Tweak
+      message: Changed the McChicken, now you can chickenmaxx
+  id: 100178
+  time: '2026-10-20T17:31:04.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/291
