@@ -2524,3 +2524,12 @@ Entries:
   id: 100185
   time: '2026-10-21T03:11:05.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/304
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Added a "Cortical borers may enter me" consent toggle. It's on by
+        default; turn it off to stop borers infesting you.
+  id: 100186
+  time: '2026-10-21T03:11:44.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/306
