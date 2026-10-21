@@ -345,10 +345,12 @@ public sealed partial class WFEncounterRewardSystem : EntitySystem
 
     /// <summary>
     /// Pays a bounty on a beaten encounter to its helpers, and a fifth to living players aboard supporters; returns how many were paid.
-    /// <paramref name="extraCredits"/> are further rewards of which only the faction credits are handed out.
+    /// <paramref name="extraCredits"/> are further rewards of which only the faction credits are handed out. Every
+    /// player the bounty is shared among is added to <paramref name="helperMobs"/>, paid or capped.
     /// </summary>
     public int PayBounty(Entity<WFEncounterComponent?> encounter, WFEncounterReward reward, string deed,
-        IReadOnlyList<EntityUid>? supporters = null, IReadOnlyList<WFEncounterReward>? extraCredits = null)
+        IReadOnlyList<EntityUid>? supporters = null, IReadOnlyList<WFEncounterReward>? extraCredits = null,
+        List<EntityUid>? helperMobs = null)
     {
         if (!Resolve(encounter, ref encounter.Comp, false))
             return 0;
@@ -392,6 +394,7 @@ public sealed partial class WFEncounterRewardSystem : EntitySystem
         }
 
         helpers.AddRange(aids);
+        helperMobs?.AddRange(helpers.Select(helper => helper.Mob));
         return Pay(encounter, comp, reward, helpers, deed, shares, extraCredits);
     }
 
@@ -506,13 +509,8 @@ public sealed partial class WFEncounterRewardSystem : EntitySystem
                 }
             }
 
-            if (paid == 0 && credits == 0 && reward.Items.Count == 0)
+            if (paid == 0 && credits == 0)
                 continue;
-
-            foreach (var item in reward.Items)
-            {
-                _hands.PickupOrDrop(mob, Spawn(item, Transform(mob).Coordinates));
-            }
 
             received++;
             _chat.DispatchServerMessage(session, Loc.GetString(credits > 0 ? "wf-encounter-reward-paid-credits" : "wf-encounter-reward-paid",
