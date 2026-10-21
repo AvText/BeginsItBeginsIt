@@ -64,7 +64,7 @@
     - type: Stealth
       enabledOnDeath: false
       enabledOnCrit: false
-      minVisibility: 0.15 # Mono: Changed to be not fully invisible
+      minVisibility: -0.4 # Mono: Changed to be not fully invisible
       maxVisibility: 0.6 # Mono: Changed to be partially invisible
     - type: StealthOnMove
       passiveVisibilityRate: -0.4
