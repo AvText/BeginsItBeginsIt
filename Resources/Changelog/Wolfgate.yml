@@ -2459,3 +2459,17 @@ Entries:
   id: 100182
   time: '2026-10-21T02:16:07.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/302
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Ashfall Reaver kit: orange combat and void hardsuits, fatigues, deck and
+        engine jumpsuits, pack, chest rig, headset, beret and captain's and
+        warlord's cloaks.
+    - type: Tweak
+      message: >-
+        Reaver crews now wear their own hardsuits: red raider suits on riflemen,
+        orange combat suits on bruisers, a stolen cloak on officers.
+  id: 100183
+  time: '2026-10-21T02:30:52.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/303
