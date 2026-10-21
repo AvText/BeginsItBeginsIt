@@ -2579,3 +2579,18 @@ Entries:
   id: 100188
   time: '2026-10-21T07:05:39.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/307
+- author: Balls2zawall
+  changes:
+    - type: Add
+      message: >-
+        After a fist fight broke out between a safety inspector and a negligent
+        engineer on Caelestinus Central, the Overseer has instated a new fire
+        code. Fire extinguishers and fire safety cabinets can be frequently
+        found throughout the hallways now.
+    - type: Fix
+      message: >-
+        Fixed the cryopods in the Caelestinus Central medical department, they
+        should no longer pull a vacuum and suffocate the patient.
+  id: 100189
+  time: '2026-10-21T07:08:18.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/309
