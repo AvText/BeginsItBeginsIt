@@ -2473,3 +2473,33 @@ Entries:
   id: 100183
   time: '2026-10-21T02:30:52.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/303
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        Encounter ships no longer vanish the moment you step off them. They wait
+        5 minutes after the last player leaves, and never go while docked to a
+        player ship.
+    - type: Fix
+      message: >-
+        Reaver reinforcements no longer disappear from under you when their
+        stronghold falls.
+    - type: Tweak
+      message: >-
+        Killing an encounter's crew in person now earns a share of its reward,
+        split evenly with the ships that fought it.
+    - type: Tweak
+      message: >-
+        Reaver stronghold and patrol bounties are much higher, and the hourly
+        reward cap is raised to 250k.
+    - type: Add
+      message: >-
+        Reaver bounties now include a drydock repair voucher, good for one free
+        full repair at Anvilhold.
+    - type: Add
+      message: >-
+        NPC crews can't see players in stealth suits or ships with a cloak up,
+        until they attack, steal or shoot.
+  id: 100184
+  time: '2026-10-21T02:52:40.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/305
